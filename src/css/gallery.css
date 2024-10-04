@@ -17,8 +17,7 @@
 .gallery-item {
   flex-basis: calc((100% - 24px * 2) / 3);
   border: 1px solid #808080;
-  background: url(<path-to-image>) lightgray -0.046px -47px / 100.026% 135%
-    no-repeat;
+  background: lightgray -0.046px -47px / 100.026% 135% no-repeat;
   position: relative;
   height: 300px;
   overflow: hidden;
