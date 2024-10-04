@@ -9,8 +9,22 @@
   </head>
   <body>
     <main>
-      <h1>goit-advancedjs-hw-03</hjson>
-      <div id="root"></div>
+      <form class="search-form">
+        <label>
+          <input
+            class="search-input"
+            type="text"
+            name="query"
+            autocomplete="off"
+            placeholder="Search images..."
+          />
+        </label>
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="loader is-hidden"></div>
+
+      <ul class="gallery"></ul>
     </main>
   </body>
 </html>
