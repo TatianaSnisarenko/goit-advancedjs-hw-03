@@ -1,4 +1,4 @@
-const API_KEY = '46273703-9deead499e428c74e7f57dd27';
+const API_KEY = VITE_API_KEY;
 const BASE_URL = 'https://pixabay.com/api/?';
 const QUERY_KEY = 'q';
 

@@ -3,10 +3,14 @@ import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 import SortCss from 'postcss-sort-media-queries';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export default defineConfig(({ command }) => {
   return {
     define: {
+      VITE_API_KEY: JSON.stringify(process.env.VITE_API_KEY),
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
