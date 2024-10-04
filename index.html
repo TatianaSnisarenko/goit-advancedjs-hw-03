@@ -6,14 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-advancedjs-hw-03</title>
     <script type="module" crossorigin src="/goit-advancedjs-hw-03/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-DJ7Tif3U.js">
-    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-DnveWo0P.css">
-    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/index-BdnTuZoN.css">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-BrddEoy-.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-CWKLx11g.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/index-BwO1Now7.css">
   </head>
   <body>
     <main>
-      <h1>goit-advancedjs-hw-03</hjson>
-      <div id="root"></div>
+      <form class="search-form">
+        <label>
+          <input
+            class="search-input"
+            type="text"
+            name="query"
+            autocomplete="off"
+            placeholder="Search images..."
+          />
+        </label>
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="loader is-hidden"></div>
+
+      <ul class="gallery"></ul>
     </main>
   </body>
 </html>
